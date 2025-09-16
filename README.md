@@ -12,8 +12,3 @@
 
 每个Assignment文件夹都包含了相应作业的代码、文档和说明。
 
-## 课程信息
-
-- 课程：CS501 E1 Mobile App Development
-- 学期：2025 Fall
-- 学校：Boston University
