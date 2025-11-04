@@ -29,10 +29,10 @@ All three activities are marked `exported=true` so they can be run individually.
   - `addRecipe(recipe: Recipe)` appends a new recipe
   - `getRecipe(id: String)` retrieves a recipe by ID
   - Initializes with sample recipes (Pasta Carbonara, Chocolate Chip Cookies)
-- Features:
-  - Recipe cards are clickable and navigate to detail screen
-  - Empty state message when no recipes exist
-  - Form validation before saving new recipes
+- How I used AI:
+  - Helping debuging, such as some gradle build problems.
+  - Creating specific recipe information.
+  - Helping checking whether the app can satisfy the requirements.
 
 ### Q2 — My Daily Hub (Multi-Tab App with Navigation)
 - Purpose: Daily productivity app with Notes, Tasks, and Calendar tabs using bottom navigation.
@@ -53,11 +53,9 @@ All three activities are marked `exported=true` so they can be run individually.
 - ViewModel responsibilities:
   - `NotesViewModel`: Expose `uiState: StateFlow<NotesUiState>`, `addNote(text)`, `deleteNote(noteId)`
   - `TasksViewModel`: Expose `uiState: StateFlow<TasksUiState>`, `addTask(text)`, `toggleTask(taskId)`, `deleteTask(taskId)`
-- Features:
-  - Notes and tasks are displayed in reverse chronological order (newest first)
-  - Visual feedback for completed tasks (grayed out text)
-  - Delete buttons with error-colored icons
-  - Empty state messages for each screen
+- How I used AI:
+  - Helping debuging, such as some gradle build problems.
+  - Helping checking whether the app can satisfy the requirements.
 
 ### Q3 — Explore Boston (Tour Guide with Navigation & Animations)
 - Purpose: Browse Boston attractions by category (Museums, Parks, Restaurants) with animated navigation transitions.
@@ -78,11 +76,10 @@ All three activities are marked `exported=true` so they can be run individually.
   - `BostonTourViewModel`: Holds predefined categories and locations
   - `getLocationsByCategory(categoryId: String)` filters locations by category
   - `getLocationById(id: Int)` retrieves a location by ID
-- Features:
-  - Pre-populated with 9 locations (3 museums, 3 parks, 3 restaurants)
-  - Category cards with Material icons
-  - Location cards show name, description, and address
-  - Detail screen with "Back" and "Home" navigation buttons
+- How I used AI:
+  - Helping debuging, such as some gradle build problems.
+  - Creating specific location information.
+  - Helping checking whether the app can satisfy the requirements.
   - Smooth animated transitions between screens
 
 ### Common Architecture Notes
@@ -104,9 +101,4 @@ All three activities are marked `exported=true` so they can be run individually.
    - Q1: `com.example.assignment5/.Q1Activity`
    - Q2: `com.example.assignment5/.Q2Activity`
    - Q3: `com.example.assignment5/.Q3Activity`
-
-### Navigation Highlights
-- Q1 demonstrates basic navigation with bottom bar and route parameters.
-- Q2 shows multi-tab navigation with state restoration.
-- Q3 showcases custom navigation animations and hierarchical navigation patterns.
 
